@@ -3,9 +3,9 @@ var mongoose = require('mongoose');
 var AlunoSchema = new mongoose.Schema({
   nome: String,
   idade: Number,
-  email: string,
-  telefone: string,
-  endereco: string,
+  email: String,
+  telefone: String,
+  endereco: String,
   dataNascimento: Date
 });
 
