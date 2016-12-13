@@ -8,6 +8,7 @@ var routes = require('./routes/index');
 var usuario = require('./routes/usuario');
 var perfil = require('./routes/perfil');
 var teste = require('./routes/teste');
+var aluno = require('./routes/aluno');
 
 var mongoose = require('mongoose');
 
@@ -56,7 +57,7 @@ app.use('/', routes);
 app.use('/usuario', usuario);
 app.use('/perfil', perfil);
 app.use('/teste', teste);
-
+app.use('/aluno', aluno);
 
 
 //Configuração de páginas não encontradas
